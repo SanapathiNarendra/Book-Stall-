@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <script>
         var counter=0;
+        var startnumber=0;
         function onclickAdd(){
             debugger;
          if (counter==0){
@@ -14,13 +15,13 @@
 
          }
          counter=counter+1;
-         startnumber=startnumber+1;
+         startnumber = startnumber + 1;
             document.getElementById("result").innerHTML=startnumber;
-            
         }
-        function{
-            alert("Hello World");
-        }
+        function onchangeAdd(){
+            debugger
+        counter=0;
+        }0
         
     </script>
 </head>
@@ -40,9 +41,8 @@
     <label>
         Enter a Value:
     </label>
-
-    <input type="text" id="txtstartnumber" placeholder="Enter a number">
-    <button onclick="onclickAdd()">Add</button>
+    <input type="text" id="txtstartnumber" placeholder="Enter a number" onchange="onchangeAdd()">
+    <button  id="btnAdd" onclick="onclickAdd()">Add</button>
     <p id="result"></p>
 </body>
 </html>
