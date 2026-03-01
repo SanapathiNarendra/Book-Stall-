@@ -9,8 +9,14 @@
         var counter=0;
         function onclickAdd(){
             debugger;
-            var startnumber=document.getElementById("txtstartnumber").value;
-            alert(startnumber);
+         if (counter==0){
+             startnumber=parseInt(document.getElementById("txtstartnumber").value);
+
+         }
+         counter=counter+1;
+         startnumber=startnumber+1;
+            document.getElementById("result").innerHTML=startnumber;
+            
         }
         function{
             alert("Hello World");
