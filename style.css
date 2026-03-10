@@ -14,10 +14,11 @@ body{
     border-radius: 8px;
     background-color: #2efc31;          
     height: 95px;
-    padding-top: 20px;
+
     border-top: 20px;
     border-color: rgb(16, 2, 2);
     border-left: 20px;
     padding-bottom: 10px;
     color:aqua;
+    
 }
