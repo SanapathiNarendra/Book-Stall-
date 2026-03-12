@@ -37,7 +37,7 @@ body{
     
 }
 .startnumber{
-    border-radius: 20px;
+    border-radius: 10px;
      background-color: #e530ef;
         border-top: 30px;
         border-color: rgb(16, 2, 2);
@@ -47,4 +47,5 @@ body{
         padding-bottom: 20px;
         color: white;
         border-width: 20px;
+
 }
