@@ -39,11 +39,11 @@ body{
     
 }
 .startnumber{
-    border-radius: 10px;
+       border-radius: 10px;
      background-color: #e530ef;
         border-top: 30px;
         border-color: rgb(16, 2, 2);
-        padding-right: 20px;
+        padding-right: 18px;
         margin-left: 15px;
         border-left: 20px;
         padding-bottom: 20px;
