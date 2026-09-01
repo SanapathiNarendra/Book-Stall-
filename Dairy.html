@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bhanu Sri Dairy - Pickup Orders</title>
+
+    <link rel="stylesheet" href="Dairy.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>🥛 Bhanu Sri Dairy</h1>
+        <h2>Book  Order</h2>
+
+        <form id="orderForm">
+
+            <label>Shop  Name</label>
+            <input type="text" id="customerName" required>
+
+            <label>Phone Number</label>
+            <input type="tel" id="phoneNumber" required>
+
+            <label>Product</label>
+            <select id="product" required>
+                <option value="">Select Product</option>
+                <option value="Milk">Milk</option>
+                <option value="Curd">Curd</option>
+                <option value="Ghee">Ghee</option>
+            </select>
+
+            <label>Quantity</label>
+            <select id="quantity" required>
+                <option value="">Select Quantity</option>
+            </select>
+
+            <label>Pickup Date</label>
+            <input type="date" id="pickupDate" required>
+
+            <label>Total Amount</label>
+            <input type="text" id="totalAmount" readonly>
+
+            <button type="submit">Add Order</button>
+
+        </form>
+
+        <hr>
+
+        <h2>📋 Orders</h2>
+
+        <div id="ordersList"></div>
+
+    </div>
+
+    <script src="Dairy.js" defer></script>
+
+</body>
+</html>
